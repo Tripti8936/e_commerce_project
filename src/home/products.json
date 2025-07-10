@@ -1,0 +1,218 @@
+{
+  "printers": [
+    {
+      "id": 15677,
+      "name": "LaserJet Pro M404",
+      "image": "/assets/monitors/images 615c pro crop.jpg",
+      "description": "LaserJet Pro M404 is a high-speed printer ideal for professional documents and reports.",
+      "specifications": [
+        "Print speed: Up to 40 ppm",
+        "Resolution: 1200 x 1200 dpi",
+        "Paper capacity: 250 sheets",
+        "Connectivity: USB, Ethernet, Wi-Fi"
+      ],
+      "price": "$574.79"
+    },
+    {
+      "id": 25667,
+      "name": "TP 415C",
+      "image": "/assets/monitors/8_d9f8785f-5f8e-4cb6-bb01-74d2cb094603.webp",
+      "description": "TP 415C is a compact thermal printer perfect for small offices and retail outlets.",
+      "specifications": [
+        "Print type: Thermal",
+        "Max Resolution: 203 dpi",
+        "Print width: 80mm",
+        "Connectivity: USB, Serial"
+      ],
+      "price": "$674.23"
+    },
+    {
+      "id": 355667,
+      "name": "TP 482C AIO",
+      "image": "/assets/tp/TP482C_AIO-RESIZED-07.webp",
+      "description": "TP 482C AIO offers all-in-one functionality with color printing and scanning capabilities.",
+      "specifications": [
+        "Function: Print, Scan, Copy",
+        "Print speed: Up to 20 ppm",
+        "Display: 2.7-inch Touchscreen",
+        "Connectivity: Wi-Fi, USB, Cloud Print"
+      ],
+      "price": "$436.41"
+    },
+    {
+      "id": 43445,
+      "name": "EcoTank ET-4760",
+      "image": "/assets/printer4.jpg",
+      "description": "EcoTank ET-4760 provides cartridge-free printing with large refillable ink tanks.",
+      "specifications": [
+        "Ink System: Refillable",
+        "Print speed: Up to 15 ppm",
+        "ADF Capacity: 30 sheets",
+        "Connectivity: Wi-Fi, Ethernet"
+      ],
+      "price": "$516.86"
+    }
+  ],
+  "cpu": [
+    {
+      "id": 122345,
+      "name": "LP 46 Plus",
+      "image": "/assets/lp/LP_46_Plus-01_copy.webp",
+      "description": "LP 46 Plus is a robust desktop computing unit ideal for multitasking and business use.",
+      "specifications": [
+        "Processor: Intel Core i5",
+        "RAM: 8GB DDR4",
+        "Storage: 512GB SSD",
+        "Connectivity: USB 3.0, HDMI, LAN"
+      ],
+      "price": "$621.93"
+    },
+    {
+      "id": 245567,
+      "name": "LP 46 Dlite ",
+      "image": "/assets/lp/LP-46-D-Lite_1.webp",
+      "description": "LP 46 Dlite is a lightweight and compact CPU for space-saving office setups.",
+      "specifications": [
+        "Processor: Intel Celeron",
+        "RAM: 4GB DDR4",
+        "Storage: 256GB SSD",
+        "Connectivity: USB 2.0, HDMI"
+      ],
+      "price": "$470.88"
+    },
+    {
+      "id": 34556,
+      "name": "LP 46 Neo",
+      "image": "/assets/lp/LP-46-Neo-1.webp",
+      "description": "LP 46 Neo combines performance with efficiency for seamless office productivity.",
+      "specifications": [
+        "Processor: Intel Core i3",
+        "RAM: 8GB DDR4",
+        "Storage: 1TB HDD",
+        "Connectivity: VGA, USB 3.0, Ethernet"
+      ],
+      "price": "$442.37"
+    },
+    {
+      "id": 456544,
+      "name": "LP 45",
+      "image": "/assets/lp/LP-443 gold.webp",
+      "description": "LP 45 is designed for entry-level tasks and reliable day-to-day computing.",
+      "specifications": [
+        "Processor: AMD Ryzen 3",
+        "RAM: 4GB DDR4",
+        "Storage: 500GB HDD",
+        "Connectivity: USB, Audio Jack, HDMI"
+      ],
+      "price": "$564.96"
+    }
+  ],
+  "scanners": [
+    {
+      "id": 154556,
+      "name": "RP 3160 Gold Thermal Receipt Printer",
+      "image": "/assets/lp/RP-3160-Gold_1.webp",
+      "description": "RP 3160 Gold provides high-speed thermal receipt printing with durability.",
+      "specifications": [
+        "Print method: Direct Thermal",
+        "Print width: 72mm",
+        "Speed: 200 mm/sec",
+        "Interface: USB, Serial"
+      ],
+      "price": "$621.34"
+    },
+    {
+      "id": 223456,
+      "name": "RP 3200 Plus 3 Inch Thermal Receipt Printer",
+      "image": "/assets/lp/RP-3160-plus printer 1).webp",
+      "description": "RP 3200 Plus delivers efficient and consistent printing for retail and billing.",
+      "specifications": [
+        "Print width: 80mm",
+        "Resolution: 203 dpi",
+        "Speed: 220 mm/sec",
+        "Interface: USB, Ethernet"
+      ],
+      "price": "$518.86"
+    },
+    {
+      "id": 3987654,
+      "name": "RP 3220 Star 3 inch Thermal Printer",
+      "image": "/assets/lp/RP-3220-Star.webp",
+      "description": "RP 3220 Star is built for quick service counters needing sharp and reliable output.",
+      "specifications": [
+        "Print width: 80mm",
+        "Paper roll: 80mm diameter",
+        "Speed: 230 mm/sec",
+        "Connectivity: USB, Bluetooth"
+      ],
+      "price": "$549.03"
+    },
+    {
+      "id": 48765,
+      "name": "RP 4200 4 inch thermal printer",
+      "image": "/assets/lp/RP-4200.webp",
+      "description": "RP 4200 is a 4-inch wide-format thermal printer suited for logistics and warehousing.",
+      "specifications": [
+        "Print width: 104mm",
+        "Speed: 150 mm/sec",
+        "Paper type: Thermal labels",
+        "Connectivity: USB, Serial"
+      ],
+      "price": "$671.45"
+    }
+  ],
+  "webCameras": [
+    {
+      "id": 13459,
+      "name": "RP-4200",
+      "image": "/assets/lp/RP-4200.webp",
+      "description": "RP-4200 webcam delivers full HD clarity and noise reduction for online meetings.",
+      "specifications": [
+        "Resolution: 1080p",
+        "Frame rate: 30fps",
+        "Microphone: Built-in noise-canceling",
+        "Mount: Clip and tripod support"
+      ],
+      "price": "$560.94"
+    },
+    {
+      "id": 27654,
+      "name": "TP 482C AIO",
+      "image": "/assets/tp/TP482C_AIO-RESIZED-07.webp",
+      "description": "TP 482C AIO webcam is perfect for personal video calls and professional setups.",
+      "specifications": [
+        "Resolution: 720p HD",
+        "Field of View: 75\u00b0",
+        "Microphone: Mono",
+        "Connectivity: USB 2.0"
+      ],
+      "price": "$411.90"
+    },
+    {
+      "id": 334567,
+      "name": "TP 482C AIO",
+      "image": "/assets/tp/TP_482C AIO.webp",
+      "description": "TP 482C AIO offers flexible mounting options and plug-and-play usability.",
+      "specifications": [
+        "Resolution: 1080p",
+        "Lens: Glass wide-angle",
+        "Compatibility: Windows, macOS",
+        "Mount: Adjustable clip"
+      ],
+      "price": "$657.34"
+    },
+    {
+      "id": 48765,
+      "name": "TP482C AIO Resized",
+      "image": "/assets/tp/TP_482C AIO.webp",
+      "description": "TP482C AIO Resized provides rich video quality and easy compatibility.",
+      "specifications": [
+        "Resolution: 1080p Full HD",
+        "Microphone: Stereo",
+        "Lens: Autofocus",
+        "Mount: Universal clip"
+      ],
+      "price": "$653.01"
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "printers": [
+    {
+      "id": 15677,
+      "name": "TP 415c Pro",
+      "image": "/assets/monitors/TP415C-PRO_2.webp",
+      "description": "The TP 415c Pro is your ultimate multi-tasking companion, equipped with an Intel Celeron Quad-Core Architecture that delivers exceptional performance. This powerful processor allows for seamless handling of multiple applications simultaneously, making it an ideal choice for professionals who need reliable and efficient computing power.",
+      "specifications": [
+        "Print speed: Up to 40 ppm",
+        "Resolution: 1200 x 1200 dpi",
+        "Paper capacity: 250 sheets",
+        "Connectivity: USB, Ethernet, Wi-Fi"
+      ],
+      "price": "$574.79"
+    },
+    {
+      "id": 25667,
+      "name": "TP 415C",
+      "image": "/assets/monitors/8_d9f8785f-5f8e-4cb6-bb01-74d2cb094603.webp",
+      "description": "TP 415C is a compact thermal printer perfect for small offices and retail outlets.",
+      "specifications": [
+        "Print type: Thermal",
+        "Max Resolution: 203 dpi",
+        "Print width: 80mm",
+        "Connectivity: USB, Serial"
+      ],
+      "price": "$674.23"
+    },
+    {
+      "id": 355667,
+      "name": "TP 482C AIO",
+      "image": "/assets/tp/TP482C_AIO-RESIZED-07.webp",
+      "description": "TP 482C AIO offers all-in-one functionality with color printing and scanning capabilities.",
+      "specifications": [
+        "Function: Print, Scan, Copy",
+        "Print speed: Up to 20 ppm",
+        "Display: 2.7-inch Touchscreen",
+        "Connectivity: Wi-Fi, USB, Cloud Print"
+      ],
+      "price": "$436.41"
+    },
+    {
+      "id": 48765,
+      "name": "TP i415c",
+      "image": "/assets/monitors/TPi415C smart.webp",
+      "description": "The perfect POS for intense operational environments that require a reliable and trustworthy system. The TP i415C comes with a 15 capacitive touch screen, high-speed processor, and large memory to support busy work environments with a touch of brilliance.",
+      "specifications": [
+        "Ink System: Refillable",
+        "Print speed: Up to 15 ppm",
+        "ADF Capacity: 30 sheets",
+        "Connectivity: Wi-Fi, Ethernet"
+      ],
+      "price": "$516.86"
+    }
+  ],
+  "lp": [
+    {
+      "id": 122345,
+      "name": "LP 46 Plus",
+      "image": "/assets/lp/LP_46_Plus-01_copy.webp",
+      "description": "LP 46 Plus is a robust desktop computing unit ideal for multitasking and business use.",
+      "specifications": [
+        "Processor: Intel Core i5",
+        "RAM: 8GB DDR4",
+        "Storage: 512GB SSD",
+        "Connectivity: USB 3.0, HDMI, LAN"
+      ],
+      "price": "$621.93"
+    },
+    {
+      "id": 245567,
+      "name": "LP 46 Dlite ",
+      "image": "/assets/lp/LP-46-D-Lite_1.webp",
+      "description": "LP 46 Dlite is a lightweight and compact CPU for space-saving office setups.",
+      "specifications": [
+        "Processor: Intel Celeron",
+        "RAM: 4GB DDR4",
+        "Storage: 256GB SSD",
+        "Connectivity: USB 2.0, HDMI"
+      ],
+      "price": "$470.88"
+    },
+    {
+      "id": 34556,
+      "name": "LP 46 Neo",
+      "image": "/assets/lp/LP-46-Neo-1.webp",
+      "description": "LP 46 Neo combines performance with efficiency for seamless office productivity.",
+      "specifications": [
+        "Processor: Intel Core i3",
+        "RAM: 8GB DDR4",
+        "Storage: 1TB HDD",
+        "Connectivity: VGA, USB 3.0, Ethernet"
+      ],
+      "price": "$442.37"
+    },
+    {
+      "id": 456544,
+      "name": "LP 45",
+      "image": "/assets/lp/LP-443 gold.webp",
+      "description": "LP 45 is designed for entry-level tasks and reliable day-to-day computing.",
+      "specifications": [
+        "Processor: AMD Ryzen 3",
+        "RAM: 4GB DDR4",
+        "Storage: 500GB HDD",
+        "Connectivity: USB, Audio Jack, HDMI"
+      ],
+      "price": "$564.96"
+    }
+  ],
+  "rp": [
+    {
+      "id": 154556,
+      "name": "RP 3160 Gold Thermal Receipt Printer",
+      "image": "/assets/lp/RP-3160-Gold_1.webp",
+      "description": "RP 3160 Gold provides high-speed thermal receipt printing with durability.",
+      "specifications": [
+        "Print method: Direct Thermal",
+        "Print width: 72mm",
+        "Speed: 200 mm/sec",
+        "Interface: USB, Serial"
+      ],
+      "price": "$621.34"
+    },
+    {
+      "id": 223456,
+      "name": "RP 3200 Plus 3 Inch Thermal Receipt Printer",
+      "image": "/assets/lp/RP-3160-plus printer 1).webp",
+      "description": "RP 3200 Plus delivers efficient and consistent printing for retail and billing.",
+      "specifications": [
+        "Print width: 80mm",
+        "Resolution: 203 dpi",
+        "Speed: 220 mm/sec",
+        "Interface: USB, Ethernet"
+      ],
+      "price": "$518.86"
+    },
+    {
+      "id": 3987654,
+      "name": "RP 3220 Star 3 inch Thermal Printer",
+      "image": "/assets/lp/RP-3220-Star.webp",
+      "description": "RP 3220 Star is built for quick service counters needing sharp and reliable output.",
+      "specifications": [
+        "Print width: 80mm",
+        "Paper roll: 80mm diameter",
+        "Speed: 230 mm/sec",
+        "Connectivity: USB, Bluetooth"
+      ],
+      "price": "$549.03"
+    },
+    {
+      "id": 48765,
+      "name": "RP 4200 4 inch thermal printer",
+      "image": "/assets/lp/RP-4200.webp",
+      "description": "RP 4200 is a 4-inch wide-format thermal printer suited for logistics and warehousing.",
+      "specifications": [
+        "Print width: 104mm",
+        "Speed: 150 mm/sec",
+        "Paper type: Thermal labels",
+        "Connectivity: USB, Serial"
+      ],
+      "price": "$671.45"
+    }
+  ],
+  "keyboards": [
+    {
+      "id": 13459,
+      "name": "Champ Membrane Keyboard",
+      "image": "/assets/keyboard/Champ-PS2-S_2.webp",
+      "description": "The Champ is a highly user-friendly and compatible keyboard. Its size and weight give a smooth handling and typing experience. And the ergonomic design brings comfort while typing, thus enabling easy and effortless keystrokes.",
+      "specifications": [
+        "Resolution: 1080p",
+        "Frame rate: 30fps",
+        "Microphone: Built-in noise-canceling",
+        "Mount: Clip and tripod support"
+      ],
+      "price": "$560.94"
+    },
+    {
+      "id": 27654,
+      "name": "Gold Prime Dust Resistant Mechanical Keyboard",
+      "image": "/assets/keyboard/Gold-Prime_1.webp",
+      "description": "Designed to withstand extreme conditions, the Gold Prime is the toughest mechanical keyboard one can buy. In addition to being user-friendly and compatible, the product is resistant to dust.",
+      "specifications": [
+        "Resolution: 720p HD",
+        "Field of View: 75\u00b0",
+        "Microphone: Mono",
+        "Connectivity: USB 2.0"
+      ],
+      "price": "$4116.90"
+    },
+    {
+      "id": 334567,
+      "name": "Platina Combo Wireless Mechanical Keyboard & Mouse",
+      "image": "/assets/keyboard/TVS-Platina-Combo-KBD_1.webp",
+      "description": "Bringing the best TVS-E keyboard and mouse range, the Platina Combo gives businesses operations the modern edge. The devices are robust, designed to work efficiently, and can be used across devices and organisations.",
+      "specifications": [
+        "Resolution: 1080p",
+        "Lens: Glass wide-angle",
+        "Compatibility: Windows, macOS",
+        "Mount: Adjustable clip"
+      ],
+      "price": "$657.34"
+    },
+    {
+      "id": 48765,
+      "name": "Champ BK372 Multi device wireless keyboard",
+      "image": "/assets/keyboard/BK-372_1_0b33eef7-6a6f-49b5-82c7-c15e82ddb392.webp",
+      "description": "With the Champ BK372, you get a slim, ergonomic, lightweight Bluetooth keyboard that supports multiple devices. The easy-switch button makes it possible to connect with up to three Android, Windows, or Mac OS devices at once. The long-lasting battery ensures uninterrupted usage, and the integrated cradle holds smartphones or tablets for better typing and viewing angles.",
+      "specifications": [
+        "Resolution: 1080p Full HD",
+        "Microphone: Stereo",
+        "Lens: Autofocus",
+        "Mount: Universal clip"
+      ],
+      "price": "$653.01"
+    },
+     {
+      "id": 684686,
+      "name": "Platina Wireless Mechanical Keyboard",
+      "image": "/assets/keyboard/Platina-Wireless_1_cbe7bd01-2728-4f10-bbc7-fb48eb2d27da.webp",
+      "description": "The TVS-E Platina keyboard is a durable and modern keyboard with laser-engraved characters and a wide range of up to 10 meters, making it the perfect partner for modern work environments.",
+      "specifications": [
+        "Resolution: 1080p Full HD",
+        "Microphone: Stereo",
+        "Lens: Autofocus",
+        "Mount: Universal clip"
+      ],
+      "price": "$653.01"
+    },
+     {
+      "id": 8699869,
+      "name": "Champ XL Membrane Keyboard",
+      "image": "/assets/keyboard/Champ-XL-S_1.webp",
+      "description": "Designed with a wider length for better comfort while typing and multi-interface compatability.",
+      "specifications": [
+        "Resolution: 1080p Full HD",
+        "Microphone: Stereo",
+        "Lens: Autofocus",
+        "Mount: Universal clip"
+      ],
+      "price": "$653.01"
+    },
+     {
+      "id": 48765,
+      "name": "Champ BK372 Multi device wireless keyboard",
+      "image": "/assets/keyboard/BK-372_1_0b33eef7-6a6f-49b5-82c7-c15e82ddb392.webp",
+      "description": "With the Champ BK372, you get a slim, ergonomic, lightweight Bluetooth keyboard that supports multiple devices. The easy-switch button makes it possible to connect with up to three Android, Windows, or Mac OS devices at once. The long-lasting battery ensures uninterrupted usage, and the integrated cradle holds smartphones or tablets for better typing and viewing angles.",
+      "specifications": [
+        "Resolution: 1080p Full HD",
+        "Microphone: Stereo",
+        "Lens: Autofocus",
+        "Mount: Universal clip"
+      ],
+      "price": "$653.01"
+    },
+     {
+      "id": 48765,
+      "name": "Champ BK372 Multi device wireless keyboard",
+      "image": "/assets/keyboard/BK-372_1_0b33eef7-6a6f-49b5-82c7-c15e82ddb392.webp",
+      "description": "With the Champ BK372, you get a slim, ergonomic, lightweight Bluetooth keyboard that supports multiple devices. The easy-switch button makes it possible to connect with up to three Android, Windows, or Mac OS devices at once. The long-lasting battery ensures uninterrupted usage, and the integrated cradle holds smartphones or tablets for better typing and viewing angles.",
+      "specifications": [
+        "Resolution: 1080p Full HD",
+        "Microphone: Stereo",
+        "Lens: Autofocus",
+        "Mount: Universal clip"
+      ],
+      "price": "$653.01"
+    }
+  ]
+}
