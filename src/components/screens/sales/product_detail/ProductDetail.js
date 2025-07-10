@@ -11,7 +11,7 @@ const ProductDetailPage = () => {
   useEffect(() => {
     const fetchProduct = async () => {
       try {
-        const response = await fetch('/products.json');
+        const response = await fetch(`${process.env.PUBLIC_URL}/products.json`);
         const data = await response.json();
         console.log(data, 'data')
         if (data[category]) {
@@ -31,24 +31,6 @@ const ProductDetailPage = () => {
   if (!product) return <div>Loading...</div>;
   console.log(product, 'products');
   
-  
-  
-  
-  // In a real app, you would fetch this data from an API based on category and id
-  // const product = {
-  //   id: 1,
-  //   name: 'LaserJet Pro M404',
-  //   image: '/images/printer1.jpg',
-  //   description: 'High-speed monochrome laser printer with professional output quality.',
-  //   specifications: [
-  //     'Print speed: Up to 40 ppm',
-  //     'Resolution: 1200 x 1200 dpi',
-  //     'Paper capacity: 250 sheets',
-  //     'Connectivity: USB, Ethernet, Wi-Fi'
-  //   ],
-  //   price: '$499.99'
-  // };
-
   return (
     <Box sx={{ p: 4 }}>
       <Typography variant="h2" gutterBottom sx={{ fontWeight: 'bold', mb: 4, fontSize: 26}}>
@@ -58,7 +40,7 @@ const ProductDetailPage = () => {
       <Card sx={{ display: 'flex', flexDirection: { xs: 'column', md: 'row' } }}>
         <CardMedia
           component="img"
-          image={product.image}
+          image={`${process.env.PUBLIC_URL}${product.image}`}
           alt={product.name}
           sx={{ width: { xs: '100%', md: 700 }, objectFit: 'contain', p: 2 }}
         />

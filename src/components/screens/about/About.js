@@ -38,6 +38,7 @@ const About = () => {
           </Typography>
       <Divider></Divider>
           <Typography className={classes.aboutTextCore} variant="h2">Core Values</Typography>
+          <Typography sx={{fontSize: 20, textAlign: 'center'}}> Our values inspire us to deliver excellence, prioritize people, and embrace innovation.<br/> We believe in building lasting relationships through trust, quality, and service.</Typography>
         </Box>
       </Box>
      

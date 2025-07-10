@@ -8,28 +8,28 @@ import { ShoppingCart, Star, Visibility } from '@mui/icons-material';
 const Sales = () => {
     const products1 = {
         printers: [
-          { id: 15677, name: 'TP 415c Pro', image: '/assets/monitors/TP415C-PRO_2.webp' },
-          { id: 25667, name: 'TP 415C', image: '/assets/monitors/8_d9f8785f-5f8e-4cb6-bb01-74d2cb094603.webp' },
-          { id: 355667, name: 'TP 482C AIO', image: '/assets/tp/TP482C_AIO-RESIZED-07.webp' },
- { id: 48765, name: 'TP i415c', image: '/assets/monitors/TPi415C smart.webp' }
+          { id: 15677, name: 'TP 415c Pro', image: `${process.env.PUBLIC_URL}/assets/monitors/TP415C-PRO_2.webp` },
+          { id: 25667, name: 'TP 415C', image: `${process.env.PUBLIC_URL}/assets/monitors/8_d9f8785f-5f8e-4cb6-bb01-74d2cb094603.webp` },
+          { id: 355667, name: 'TP 482C AIO', image: `${process.env.PUBLIC_URL}/assets/tp/TP482C_AIO-RESIZED-07.webp` },
+ { id: 48765, name: 'TP i415c', image: `${process.env.PUBLIC_URL}/assets/monitors/TPi415C smart.webp` }
         ],
         lp: [
-          { id: 122345, name: 'LP 46 Plus', image: '/assets/lp/LP_46_Plus-01_copy.webp' },
-          { id: 245567, name: 'LP 46 Dlite ', image: '/assets/lp/LP-46-D-Lite_1.webp' },
-          { id: 34556, name: 'LP 46 Neo', image: '/assets/lp/LP-46-Neo-1.webp' },
-          { id: 456544, name: 'LP 45', image: '/assets/lp/LP-443 gold.webp' },
+          { id: 122345, name: 'LP 46 Plus', image: `${process.env.PUBLIC_URL}/assets/lp/LP_46_Plus-01_copy.webp` },
+          { id: 245567, name: 'LP 46 Dlite ', image: `${process.env.PUBLIC_URL}/assets/lp/LP-46-D-Lite_1.webp` },
+          { id: 34556, name: 'LP 46 Neo', image: `${process.env.PUBLIC_URL}/assets/lp/LP-46-Neo-1.webp` },
+          { id: 456544, name: 'LP 45', image: `${process.env.PUBLIC_URL}/assets/lp/LP-443 gold.webp` },
         ],
         rp: [
-          { id: 154556, name: 'RP 3160 Gold Thermal Receipt Printer', image: '/assets/lp/RP-3160-Gold_1.webp' },
-          { id: 223456, name: 'RP 3200 Plus 3 Inch Thermal Receipt Printer', image: '/assets/lp/RP-3160-plus printer 1).webp' },
-          { id: 3987654, name: 'RP 3220 Star 3 inch Thermal Printer', image: '/assets/lp/RP-3220-Star.webp' },
-          { id: 48765, name: 'RP 4200 4 inch thermal printer', image: '/assets/lp/RP-4200.webp' },
+          { id: 154556, name: 'RP 3160 Gold Thermal Receipt Printer', image: `${process.env.PUBLIC_URL}/assets/lp/RP-3160-Gold_1.webp` },
+          { id: 223456, name: 'RP 3200 Plus 3 Inch Thermal Receipt Printer', image: `${process.env.PUBLIC_URL}/assets/lp/RP-3160-plus printer 1).webp` },
+          { id: 3987654, name: 'RP 3220 Star 3 inch Thermal Printer', image: `${process.env.PUBLIC_URL}/assets/lp/RP-3220-Star.webp` },
+          { id: 48765, name: 'RP 4200 4 inch thermal printer', image: `${process.env.PUBLIC_URL}/assets/lp/RP-4200.webp` },
         ],
         keyboards: [
-          { id: 13459, name: 'Champ Membrane Keyboard', image: "/assets/keyboard/TVS-Platina-Combo-KBD_1.webp" },
-          { id: 27654, name: 'Gold Prime Dust Resistant Mechanical Keyboard', image: '/assets/keyboard/Gold-Prime_1.webp' },
-          { id: 334567, name: 'Platina Combo Wireless Mechanical Keyboard & Mouse', image: '/assets/keyboard/TVS-Platina-Combo-KBD_1.webp' },
-          { id: 684686, name: 'Platina Wireless Mechanical Keyboard', image: '/assets/keyboard/Platina-Wireless_1_cbe7bd01-2728-4f10-bbc7-fb48eb2d27da.webp' },
+          { id: 13459, name: 'Champ Membrane Keyboard', image: `${process.env.PUBLIC_URL}/assets/keyboard/TVS-Platina-Combo-KBD_1.webp` },
+          { id: 27654, name: 'Gold Prime Dust Resistant Mechanical Keyboard', image: `${process.env.PUBLIC_URL}/assets/keyboard/Gold-Prime_1.webp` },
+          { id: 334567, name: 'Platina Combo Wireless Mechanical Keyboard & Mouse', image: `${process.env.PUBLIC_URL}/assets/keyboard/TVS-Platina-Combo-KBD_1.webp` },
+          { id: 684686, name: 'Platina Wireless Mechanical Keyboard', image: `${process.env.PUBLIC_URL}/assets/keyboard/Platina-Wireless_1_cbe7bd01-2728-4f10-bbc7-fb48eb2d27da.webp` },
         ]
       };
   const classes = useStyles();

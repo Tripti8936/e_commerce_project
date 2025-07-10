@@ -22,7 +22,7 @@ const Home = () => {
       <Box className={classes.image}>
         <Box sx={{ display: "flex", alignItems: "center", height: "100%", marginLeft: "100px" }}>
           
-      <img src="/assets/printer_new-removebg-preview (1).png"/>
+      <img src={`${process.env.PUBLIC_URL}/assets/printer_new-removebg-preview (1).png`}/>
       {/* <img src="/assets/images 615c pro crop.jpg"/> */}
 
       <Box>
@@ -165,26 +165,26 @@ const Home = () => {
           <Box className={classes.imgcontainer}>
             <Box className={classes.imgContainerBox}>
               <img
-                src="/assets/brands/samsung.png"
+                src={`${process.env.PUBLIC_URL}/assets/brands/samsung.png`}
                 height="50px"
                 width="130px"
                 alt="samsung"
               />
 
               <img
-                src="/assets/brands/mi.png"
+                src={`${process.env.PUBLIC_URL}/assets/brands/mi.png`}
                 height="50px"
                 width="50px"
                 alt="mi"
               />
               <img
-                src="/assets/brands/Symphony.jpg"
+                src={`${process.env.PUBLIC_URL}/assets/brands/Symphony.jpg`}
                 height="50px"
                 width="120px"
                 alt="symphony"
               />
                <img
-                src="/assets/brands/dell.png"
+                src={`${process.env.PUBLIC_URL}/assets/brands/dell.png`}
                 alt="dell"
                 height="50px"
                 width="50px"
@@ -214,7 +214,7 @@ const Home = () => {
                 width="120px"
               /> */}
               <img
-                src="/assets/brands/asus_logo.png"
+                src={`${process.env.PUBLIC_URL}/assets/brands/asus_logo.png`}
                 alt="asus"
                 height="50px"
                 width="120px"
@@ -222,37 +222,37 @@ const Home = () => {
             </Box>
             <Box className={classes.imgContainerBox}>
                <img
-                src="/assets/brands/jbl.jpg"
+                src={`${process.env.PUBLIC_URL}/assets/brands/jbl.jpg`}
                 height="50px"
                 width="100px"
                 alt="jbl"
               />
               <img
-                src="/assets/brands/hp.png"
+                src={`${process.env.PUBLIC_URL}/assets/brands/hp.png`}
                 alt="hp"
                 height="50px"
                 width="70px"
               />
               <img
-                src="/assets/brands/amazon.png"
+                src={`${process.env.PUBLIC_URL}/assets/brands/amazon.png`}
                 alt="amazon"
                 height="50px"
                 width="120px"
               />
               <img
-                src="/assets/brands/hitachi.png"
+                src={`${process.env.PUBLIC_URL}/assets/brands/hitachi.png`}
                 height="50px"
                 width="120px"
                 alt="logo"
               />
               <img
-                src="/assets/brands/lenovo.png"
+                src={`${process.env.PUBLIC_URL}/assets/brands/lenovo.png`}
                 height="50px"
                 width="120px"
                 alt="logo"
               />
               <img
-                src="/assets/brands/acer.png"
+                src={`${process.env.PUBLIC_URL}/assets/brands/acer.png`}
                 height="50px"
                 width="120px"
                 alt="logo"
@@ -261,162 +261,6 @@ const Home = () => {
           </Box>
         </Box>
       </Box>
-      {/* <Box className={classes.footer}>
-        <Box className={classes.footerSection}>
-          <Box className={classes.footerSection1}>
-            <Box className={classes.footerBox1}>
-              <Typography
-                variant="h1"
-                className={classes.footerSection1Heading}
-              >
-                About Infobell System & Solutions
-              </Typography>
-              <Typography className={classes.footerSection1Base}>
-                Infobell System and Solutions Private Limited, is a neutral
-                service provider in the field of IT, telecom, Security
-                Serveillance, Home Automation and other areas.
-              </Typography>
-            </Box>
-            <Box className={classes.footerBox2}>
-              <Typography
-                variant="h1"
-                className={classes.footerSection1Heading}
-              >
-                Get In Touch
-              </Typography>
-              <Box className={classes.footerSection1mail}>
-                <EmailIcon />
-                <Typography className={classes.footerSection1mail1}>
-                  <a
-                    href="infobellservices@gmail.com"
-                    className={classes.textMail}
-                    style={{ textDecoration: "none" }}
-                  >
-                    Infobellservices.gmail.com
-                  </a>
-                </Typography>
-              </Box>
-              <Box className={classes.footerSection1mail}>
-                <AccessTimeIcon />
-                <Typography className={classes.footerSection1mail1}>
-                  Service Center Timings: 10 am to 5 pm
-                </Typography>
-              </Box>
-              <Box className={classes.footerSection1mail}>
-                <HomeIcon />
-                <Typography className={classes.footerSection1mail1}>
-                  Infobell System and Solutions Pvt. Ltd. BTM 2nd Stage,
-                  Sunshine colony, BTM layout, Kuvempu Nagar,
-                  <br />
-                  Pin code: 560068
-                </Typography>
-              </Box>
-            </Box>
-            <Box className={classes.footerBox3}>
-              <Typography
-                variant="h1"
-                className={classes.footerSection1Heading}
-              >
-                Find Us
-              </Typography>
-              <Box sx={{ display: "flex" }}>
-                <Box className={classes.footerSectionFindUs}>
-                  <FacebookIcon />
-                </Box>
-                <Box className={classes.footerSectionFindUs}>
-                  <InstagramIcon />
-                </Box>
-                <Box className={classes.footerSectionFindUs}>
-                  <TwitterIcon />
-                </Box>
-                <Box className={classes.footerSectionFindUs}>
-                  <LinkedInIcon />
-                </Box>
-                <Box className={classes.footerSectionFindUs}>
-                  <YouTubeIcon />
-                </Box>
-              </Box>
-            </Box>
-          </Box>
-          <Box className={classes.footerSection2}>
-            <Box className={classes.footerSection2Box1}>
-              <Typography
-                variant="h1"
-                className={classes.footerSection1Heading2}
-              >
-                About Us
-              </Typography>
-              <MenuList>
-                <MenuItem className={classes.footerSection2point}>
-                  Our Core Values
-                </MenuItem>
-                <MenuItem className={classes.footerSection2point}>
-                  Quality Policy
-                </MenuItem>
-                <MenuItem className={classes.footerSection2point}>
-                  Directors and Management
-                </MenuItem>
-                <MenuItem className={classes.footerSection2point}>
-                  Why INFOBELL Services
-                </MenuItem>
-                <MenuItem className={classes.footerSection2point}>
-                  Brands We Service
-                </MenuItem>
-                <MenuItem className={classes.footerSection2point}>
-                  Testimonials
-                </MenuItem>
-                <MenuItem className={classes.footerSection2point}>
-                  E-waste Policy
-                </MenuItem>
-              </MenuList>
-            </Box>
-            <Box className={classes.footerSection2Box1}>
-              <Typography
-                variant="h1"
-                className={classes.footerSection1Heading2}
-              >
-                Services
-              </Typography>
-              <MenuList>
-                <MenuItem className={classes.footerSection2point}>
-                  Warranty Support
-                </MenuItem>
-                <MenuItem className={classes.footerSection2point}>
-                  L4 Repairs
-                </MenuItem>
-                <MenuItem className={classes.footerSection2point}>
-                  Help Desk Services
-                </MenuItem>
-                <MenuItem className={classes.footerSection2point}>
-                  RMS Services
-                </MenuItem>
-                <MenuItem className={classes.footerSection2point}>
-                  Spare Parts Management
-                </MenuItem>
-                <MenuItem className={classes.footerSection2point}>
-                  Facility Management
-                </MenuItem>
-              </MenuList>
-            </Box>
-            <Box className={classes.footerSection2Box1}>
-              <Typography
-                variant="h1"
-                className={classes.footerSection1Heading2}
-              >
-                Contact Us
-              </Typography>
-              <MenuList>
-                <MenuItem className={classes.footerSection2point}>
-                  Get In Touch
-                </MenuItem>
-                <MenuItem className={classes.footerSection2point}>
-                  Infobell Service Centers
-                </MenuItem>
-              </MenuList>
-            </Box>
-          </Box>
-        </Box>
-      </Box> */}
     </Box>
   );
 };

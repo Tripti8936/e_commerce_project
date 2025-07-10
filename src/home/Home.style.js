@@ -101,6 +101,7 @@ export const useStyles = makeStyles((theme) => ({
     expertiseText: {
       color: "#4d4f4e",
       fontSize: "15px !important",
+      fontFamily: "sans-serif !important",
       textAlign: "center",
       padding: "20px 0px",
       fontWeight: "400",

@@ -38,169 +38,24 @@ const Customer = () => {
           </Typography>
         </Box>
         <Box className={classes.brandContainerImg}>
-          {/* <Box className={classes.brandImgBox}>
-                        <img
-                          src="https://www.tvs-e.in/wp-content/uploads/2020/02/samsung-logo-300x66.png"
-                          height="40px"
-                          width="120px"
-                          alt="logo"
-                        />
-                        <img
-                          src="https://www.tvs-e.in/wp-content/uploads/2020/02/mi-logo.png"
-                          height="50px"
-                          width="50px"
-                          alt="logo"
-                        />
-                        <img
-                          src="https://www.tvs-e.in/wp-content/uploads/2021/06/Symphony-removebg-preview-300x116.jpg"
-                          height="50px"
-                          width="120px"
-                          alt="logo"
-                        />
-                        <img
-                          src="https://www.tvs-e.in/wp-content/uploads/2019/10/hdfc-150x150.png"
-                          height="50px"
-                          width="50px"
-                          alt="logo"
-                        />
-                        <img
-                          src="https://www.tvs-e.in/wp-content/uploads/2021/03/jbl-1024x683.png"
-                          height="70px"
-                          width="100px"
-                          alt="logo"
-                        />
-                        <img
-                          src="https://www.tvs-e.in/wp-content/uploads/2020/02/dell-logo.png"
-                          height="50px"
-                          width="50px"
-                          alt="logo"
-                        />
-                        <img
-                          src="https://www.tvs-e.in/wp-content/uploads/2020/02/amazon-logo.png"
-                          height="50px"
-                          width="120px"
-                          alt="logo"
-                        />
-                        <img
-                          src="https://www.tvs-e.in/wp-content/uploads/2021/02/asus_logo-removebg-preview-300x76.png"
-                          height="50px"
-                          width="120px"
-                          alt="logo"
-                        />
-                          <img
-                          src="https://www.tvs-e.in/wp-content/uploads/2020/02/samsung-logo-300x66.png"
-                          height="40px"
-                          width="120px"
-                          alt="logo"
-                        />
-                        <img
-                          src="https://www.tvs-e.in/wp-content/uploads/2020/02/mi-logo.png"
-                          height="50px"
-                          width="50px"
-                          alt="logo"
-                        />
-                        <img
-                          src="https://www.tvs-e.in/wp-content/uploads/2021/06/Symphony-removebg-preview-300x116.jpg"
-                          height="50px"
-                          width="120px"
-                          alt="logo"
-                        />
-                        <img
-                          src="https://www.tvs-e.in/wp-content/uploads/2019/10/hdfc-150x150.png"
-                          height="50px"
-                          width="50px"
-                          alt="logo"
-                        />
-                        <img
-                          src="https://www.tvs-e.in/wp-content/uploads/2021/03/jbl-1024x683.png"
-                          height="70px"
-                          width="100px"
-                          alt="logo"
-                        />
-                        <img
-                          src="https://www.tvs-e.in/wp-content/uploads/2020/02/dell-logo.png"
-                          height="50px"
-                          width="50px"
-                          alt="logo"
-                        />
-                        <img
-                          src="https://www.tvs-e.in/wp-content/uploads/2020/02/amazon-logo.png"
-                          height="50px"
-                          width="120px"
-                          alt="logo"
-                        />
-                        <img
-                          src="https://www.tvs-e.in/wp-content/uploads/2021/02/asus_logo-removebg-preview-300x76.png"
-                          height="50px"
-                          width="120px"
-                          alt="logo"
-                        />
-                          <img
-                          src="https://www.tvs-e.in/wp-content/uploads/2020/02/samsung-logo-300x66.png"
-                          height="40px"
-                          width="120px"
-                          alt="logo"
-                        />
-                        <img
-                          src="https://www.tvs-e.in/wp-content/uploads/2020/02/mi-logo.png"
-                          height="50px"
-                          width="50px"
-                          alt="logo"
-                        />
-                        <img
-                          src="https://www.tvs-e.in/wp-content/uploads/2021/06/Symphony-removebg-preview-300x116.jpg"
-                          height="50px"
-                          width="120px"
-                          alt="logo"
-                        />
-                        <img
-                          src="https://www.tvs-e.in/wp-content/uploads/2019/10/hdfc-150x150.png"
-                          height="50px"
-                          width="50px"
-                          alt="logo"
-                        />
-                        <img
-                          src="https://www.tvs-e.in/wp-content/uploads/2021/03/jbl-1024x683.png"
-                          height="70px"
-                          width="100px"
-                          alt="logo"
-                        />
-                        <img
-                          src="https://www.tvs-e.in/wp-content/uploads/2020/02/dell-logo.png"
-                          height="50px"
-                          width="50px"
-                          alt="logo"
-                        />
-                        <img
-                          src="https://www.tvs-e.in/wp-content/uploads/2020/02/amazon-logo.png"
-                          height="50px"
-                          width="120px"
-                          alt="logo"
-                        />
-                        <img
-                          src="https://www.tvs-e.in/wp-content/uploads/2021/02/asus_logo-removebg-preview-300x76.png"
-                          height="50px"
-                          width="120px"
-                          alt="logo"
-                        />
-                      </Box> */}
+
           <Box className={classes.brandImgContainer}>
             {[
-              "/assets/brands/sam1562575696.png",
-              "/assets/brands/miImages.png",
-              "/assets/brands/symphonryjpg.jpg",
-              // "https://www.tvs-e.in/wp-content/uploads/2019/10/hdfc-150x150.png",
-              "/assets/brands/jbl.jpg",
-              "/assets/brands/dell.png",
-              "/assets/brands/amazon.png",
-              "/assets/brands/asus_logo.png",
-              "/assets/brands/acer.png",
-              "/assets/brands/hitachi.png",
-              "/assets/brands/hp.png",
-              "/assets/brands/lenovo.png",
-              "/assets/brands/hitachi.png",
-              "assets/brands/razorpay.png",
-              "/assets/brands/tvs-elec.png"
+              `${process.env.PUBLIC_URL}/assets/brands/sam1562575696.png`,
+              `${process.env.PUBLIC_URL}/assets/brands/miImages.png`,
+              `${process.env.PUBLIC_URL}/assets/brands/symphonryjpg.jpg`,
+              // "https://www.tvs-e.in/wp-content/uploads/2019/10/hdfc-150x150.png`},
+              `${process.env.PUBLIC_URL}/assets/brands/jbl.jpg`,
+              `${process.env.PUBLIC_URL}/assets/brands/dell.png`,
+              `${process.env.PUBLIC_URL}/assets/brands/amazon.png`,
+              `${process.env.PUBLIC_URL}/assets/brands/asus_logo.png`,
+              `${process.env.PUBLIC_URL}/assets/brands/acer.png`,
+              `${process.env.PUBLIC_URL}/assets/brands/hitachi.png`,
+              `${process.env.PUBLIC_URL}/assets/brands/hp.png`,
+              `${process.env.PUBLIC_URL}/assets/brands/lenovo.png`,
+              `${process.env.PUBLIC_URL}/assets/brands/hitachi.png`,
+              `${process.env.PUBLIC_URL}/assets/brands/razorpay.png`,
+              `${process.env.PUBLIC_URL}/assets/brands/tvs-elec.png`
             ].map((imgSrc, index) => (
               <Box key={index} className={classes.brandImgBox}>
                 <img src={imgSrc} alt="brand logo" />
@@ -211,55 +66,6 @@ const Customer = () => {
       </Box>
       <Box className={classes.brandContainer}> 
         <Box className={classes.clentContainer}>
-          {/* <Box className={classes.clentContainerHead}>
-            <Typography className={classes.clientContianerClient}>
-              Happy Clients
-            </Typography>
-          </Box>
-          <Box className={classes.brandSubHeadingBox}>
-            <Typography className={classes.brandSubHeading}>
-              What People Say About
-            </Typography>
-          </Box> */}
-
-          {/* <Box className={classes.brandSubTextBox}>
-            <Box className={classes.brandSubTextBox1}>
-              <Typography className={classes.brandSubText}>
-                Thank you for your exceptional services! Your professionalism
-                and commitment to quality are truly commendable.We appreciate
-                the outstanding support and solutions provided by Infobell
-                System and Services Pvt. Ltd. Keep up the great work!
-              </Typography>
-              <Typography className={classes.brandSubText}>
-                Tripti Kumari
-              </Typography>
-            </Box> */}
-          {/* </Box> */}
-         {/* <Box className={classes.carouselContainer}>
-      {feedbacks.map((feedback, index) => (
-        <Typography
-          key={index}
-          className={`${classes.carouselText} ${
-            index === currentIndex ? classes.visible : ""
-          }`}
-        >
-          {feedback}
-        </Typography>
-      ))}
-
-      {/* Dots below the text */}
-      {/* <Box className={classes.dotsContainer}>
-        {feedbacks.map((_, index) => (
-          <Box
-            key={index}
-            className={`${classes.dot} ${
-              index === currentIndex ? classes.activeDot : ""
-            }`}
-          />
-        ))}
-      </Box> */}
-    {/* </Box>  */} 
-
     
     <Carousel data-bs-theme="dark">
     <Carousel.Item>
@@ -291,10 +97,11 @@ const Customer = () => {
         <Typography variant="h1" sx={{marginTop: '90px', marginBottom: '40px'}}>  Happy Clients</Typography>
 
           <h5>  What People Say About</h5>
-          <p> Thank you for your exceptional services! Your professionalism<br />
-                and commitment to quality are truly commendable.We appreciate<br/>
-                the outstanding support and solutions provided by Infobell,<br />
-                System and Services Pvt. Ltd. Keep up the great work!</p>
+             
+          <p> Infobell has been an invaluable partner in our digital transformation journey.<br />
+                Their IT solutions are not only innovative but also tailored to our business<br/>
+                 needs. The team’s expertise and prompt, support have significantly improved<br />
+                 our operational efficiency. Highly recommended!</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -303,10 +110,11 @@ const Customer = () => {
       <Carousel.Caption style={{ position: 'relative', left: '0px' }}>
           <Typography variant="h1" sx={{marginTop: '90px', marginBottom: '40px'}}>  Happy Clients</Typography>
           <h5>  What People Say About</h5>
-          <p> Thank you for your exceptional services! Your professionalism<br />
-                and commitment to quality are truly commendable.We appreciate<br/>
-                the outstanding support and solutions provided by Infobell,<br />
-                System and Services Pvt. Ltd. Keep up the great work!</p>
+            
+          <p> The level of professionalism and dedication shown by Infobell<br />
+                is unmatched. From seamless system integrations to reliable after-sales<br/>
+                support, they’ve exceeded our expectations. A truly customer-centric company,<br />
+                 Keep up the great work!</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
