@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/e_commerce_project/static/css/main.2395d01b.css",
-    "main.js": "/e_commerce_project/static/js/main.63d71d0f.js",
+    "main.js": "/e_commerce_project/static/js/main.83fcd834.js",
     "static/media/pngtree-old-white-paper-distressed-brown-grunge-texture-background-picture-image_1447034.jpg": "/e_commerce_project/static/media/pngtree-old-white-paper-distressed-brown-grunge-texture-background-picture-image_1447034.fc106cecf56f34a2f929.jpg",
     "static/media/WhatsApp Image 2025-02-01 at 7.11.25 PM.png": "/e_commerce_project/static/media/WhatsApp Image 2025-02-01 at 7.11.25 PM.788b00152327dbe3160a.png",
     "static/media/sales-sales-service.jpg": "/e_commerce_project/static/media/sales-sales-service.fe62fd3a11e576cab051.jpg",
     "static/media/Kisan.jpeg": "/e_commerce_project/static/media/Kisan.25526c1f937d45a80c17.jpeg",
     "index.html": "/e_commerce_project/index.html",
     "main.2395d01b.css.map": "/e_commerce_project/static/css/main.2395d01b.css.map",
-    "main.63d71d0f.js.map": "/e_commerce_project/static/js/main.63d71d0f.js.map"
+    "main.83fcd834.js.map": "/e_commerce_project/static/js/main.83fcd834.js.map"
   },
   "entrypoints": [
     "static/css/main.2395d01b.css",
-    "static/js/main.63d71d0f.js"
+    "static/js/main.83fcd834.js"
   ]
 }
